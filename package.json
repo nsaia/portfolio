@@ -1,0 +1,23 @@
+{
+  "name": "jekyll",
+  "version": "1.0.0",
+  "description": "jekyll project template",
+  "main": "js/bundle.js",
+  "dependencies": {
+    "webpack": "^2.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "bundle exec jekyll serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allie/jekyll-base.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/allie/jekyll-base/issues"
+  },
+  "homepage": "https://github.com/allie/jekyll-base#readme"
+}
