@@ -1,0 +1,54 @@
+* {
+	box-sizing: border-box;
+}
+
+:root {
+	font-size: 16px;
+}
+
+body {
+	font-family: $font-copy;
+	font-size: 0.875rem;
+	font-weight: 300;
+	line-height: 2rem;
+	color: $color-fg;
+	background-color: $color-bg;
+}
+
+a {
+	text-transform: lowercase;
+	color: $color-darkgrey;
+	text-decoration: none;
+}
+
+p {
+	margin-bottom: 2rem;
+}
+
+h1 {
+	font-family: $font-heading;
+	font-weight: 600;
+	font-size: 1.25rem;
+	color: $color-darkgrey;
+	margin-bottom: 2rem;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-family: $font-heading;
+	font-weight: 600;
+	font-size: 1rem;
+	color: $color-fg;
+	text-transform: uppercase;
+}
+
+.wrapper {
+	margin: auto;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	width: $wrapper-width-desktop;
+}
+
+summary {
+	margin-bottom: 6rem;
+}

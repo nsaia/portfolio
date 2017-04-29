@@ -1,0 +1,56 @@
+#site-header {
+	font-family: $font-heading;
+	font-size: 0.75rem;
+	font-weight: 600;
+	padding: 1rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+#logo-small {
+	width: 3rem;
+	height: 3rem;
+	svg {
+		path {
+			fill: $color-darkgrey;
+		}
+	}
+}
+
+#site-title {
+	margin-left: 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	a {
+		text-transform: uppercase;
+		color: $color-darkgrey;
+		text-decoration: none;
+		transition: color 0.5s;
+	}
+
+	a:hover {
+		color: $color-fg;
+	}
+}
+
+.header-spacer {
+	flex-grow: 1;
+}
+
+#site-nav {
+	display: flex;
+	align-items: center;
+}
+
+.page-link {
+	text-transform: uppercase;
+	margin-left: 2rem;
+	color: $color-darkgrey;
+	transition: color 0.5s;
+}
+
+.page-link:hover {
+	color: $color-fg;
+}

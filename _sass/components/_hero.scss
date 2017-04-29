@@ -1,0 +1,34 @@
+#hero {
+	width: 100vw;
+	height: 20rem;
+	background: linear-gradient(to bottom right, $color-accent, $color-accent2);
+	padding: 3rem;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 6rem;
+}
+
+.hero-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	span {
+		text-transform: uppercase;
+		font-size: 2rem;
+		color: $color-bg;
+	}
+}
+
+#hero-content {
+	height: 100%;
+	width: auto;
+	display: flex;
+	svg {
+		width: 100%;
+		height: 100%;
+		path {
+			fill: $color-bg;
+		}
+	}
+}
