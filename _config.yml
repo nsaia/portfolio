@@ -1,5 +1,5 @@
-title: Nick Saia's Portfolio
-email: your-email@domain.com
+title: Nick Saia
+email: nick@saia.me
 description: > # Nick Saia's portfolio of design works.
 baseurl: ""
 url: ""
@@ -15,3 +15,4 @@ exclude:
   - Gemfile.lock
 sass:
     sass_dir: _sass
+permalink: pretty

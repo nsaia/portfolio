@@ -1,15 +1,17 @@
 <header id="site-header">
 	<div id="logo-small">
-		{% include logo-icon %}
+		<a href="{{ site.baseurl }}/">
+			{% include logo-icon %}
+		</a>
 	</div>
-	<div id="site-title">
+	<!-- <div id="site-title">
 		<a href="{{ site.baseurl }}/">nick saia</a>
-	</div>
+	</div> -->
 	<div class="header-spacer"></div>
 	<nav id="site-nav">
-		<a class="page-link" id="link-portfolio" href="#">portfolio</a>
-		<a class="page-link" id="link-about" href="#">about</a>
-		<a class="page-link" id="link-contact" href="#">contact</a>
-		<a class="page-link" id="link-shop" href="#">shop</a>
+		<a class="page-link" id="link-portfolio" href="/portfolio/">portfolio</a>
+		<a class="page-link" id="link-about" href="/about/">about</a>
+		<a class="page-link" id="link-contact" href="/contact/">contact</a>
+		<!-- <a class="page-link" id="link-shop" href="#">shop</a> -->
 	</nav>
 </header>

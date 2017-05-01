@@ -49,6 +49,19 @@ h2 {
 	width: $wrapper-width-desktop;
 }
 
+@media only screen and (max-width: $wrapper-width-desktop) {
+	.wrapper {
+		margin: auto;
+		padding-left: 1rem;
+		padding-right: 1rem;
+		width: $wrapper-width-mobile;
+	}
+}
+
 summary {
 	margin-bottom: 6rem;
+}
+
+main {
+	padding-bottom: 6rem;
 }

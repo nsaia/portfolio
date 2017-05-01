@@ -6,7 +6,9 @@
   "dependencies": {
     "webpack": "^2.2.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "flickity": "^2.0.5"
+  },
   "scripts": {
     "start": "bundle exec jekyll serve"
   },

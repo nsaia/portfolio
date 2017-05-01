@@ -1,6 +1,7 @@
 ---
 ---
 @import "vendor/reset";
+@import "vendor/flickity";
 
 @import "core/fonts";
 @import "core/colors";
@@ -10,3 +11,5 @@
 @import "components/header";
 @import "components/hero";
 @import "components/thumbnails";
+@import "components/content";
+@import "components/carousel";
