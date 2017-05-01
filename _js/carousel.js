@@ -1,4 +1,5 @@
 import Flickity from "flickity";
+import "flickity-imagesloaded";
 
 $(document).ready(function() {
 	var el = document.querySelector(".carousel");
