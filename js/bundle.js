@@ -1632,9 +1632,11 @@ return TapListener;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_flickity___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_flickity__);
 
 
-var el = document.querySelector(".carousel");
-var flick = new __WEBPACK_IMPORTED_MODULE_0_flickity___default.a(el, {
-	contain: true
+$(document).ready(function() {
+	var el = document.querySelector(".carousel");
+	var flick = new __WEBPACK_IMPORTED_MODULE_0_flickity___default.a(el, {
+		contain: true
+	});
 });
 
 

@@ -1,6 +1,8 @@
 import Flickity from "flickity";
 
-var el = document.querySelector(".carousel");
-var flick = new Flickity(el, {
-	contain: true
+$(document).ready(function() {
+	var el = document.querySelector(".carousel");
+	var flick = new Flickity(el, {
+		contain: true
+	});
 });
