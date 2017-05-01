@@ -6,12 +6,12 @@
 		{% include hero.html %}
 		<main class="page-content">
 			<div class="wrapper">
-				<summary class="lead">
+				<div id="lead">
 {% capture page_lead %}
 	{% include lead.md %}
 {% endcapture %}
 					{{ page_lead | markdownify }}
-				</summary>
+				</div>
 				<h1>featured works</h1>
 				<section class="featured">
 					<div class="thumbnail-grid">

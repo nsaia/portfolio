@@ -2,8 +2,9 @@
 	box-sizing: border-box;
 }
 
-:root {
-	font-size: 16px;
+html {
+	font-size: 100%;
+	-webkit-text-size-adjust: none;
 }
 
 body {
@@ -56,10 +57,6 @@ h2 {
 		padding-right: 1rem;
 		width: $wrapper-width-mobile;
 	}
-}
-
-summary {
-	margin-bottom: 6rem;
 }
 
 main {
