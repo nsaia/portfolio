@@ -13,4 +13,4 @@ Phone: +1 603 205 2122
 
 E-mail: [nick@saia.me](mailto:nick@saia.me)
 
-My current resume can be found [here]().
+My current resume can be found [here](/assets/resume.pdf).
