@@ -17,8 +17,7 @@
 					<div class="thumbnail-grid">
 {% for post in site.posts %}
 	{% if post.featured %}
-						<div class="thumbnail">
-							<img src="/assets/thumbnails/{{ post.thumbnail }}">
+						<div class="thumbnail" style="background-image:url('/assets/thumbnails/{{ post.thumbnail }}');">
 							<a href="{{ post.url }}">
 								<div class="thumbnail-title">
 									<h2>{{ post.title }}</h2>
