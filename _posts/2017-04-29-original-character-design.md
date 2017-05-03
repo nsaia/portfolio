@@ -2,7 +2,6 @@
 layout: post
 title: "Original Character Design"
 post_url: /original-character
-featured: true
 thumbnail: oc.png
 images:
   - oc1.png
