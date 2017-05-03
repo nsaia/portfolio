@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Levi Stamps - Design Through History"
-subtitle: "design through history"
 post_url: /levi
 featured: true
 thumbnail: levi.png

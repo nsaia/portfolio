@@ -8,9 +8,7 @@
 			<div class="wrapper">
 				<div class="carousel">
 	{% for image in page.images %}
-					<div class="carousel-cell">
-						<img src="/assets/{{ image }}">
-					</div>
+					<div class="carousel-cell" style="background-image:url('/assets/{{ image }}');"></div>
 	{% endfor %}
 				</div>
 				{{ content }}
